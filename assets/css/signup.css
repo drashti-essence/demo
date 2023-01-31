@@ -1,0 +1,120 @@
+:root {
+	--hed-burban-color: #071949;
+	--heading-dark-text: #757575;
+	--color-burban-orange: #ff4d00;
+	--heading-text-light: #464646;
+	--background-light-blue: #F5F8FA;
+	--border: 1px solid;
+	--border-color-light: #f8f9fa;
+	--border-color: #A8A8A8;
+	--border-radius: 5px;
+	--font-weight: 600;
+	--background: #FFFFFF;
+	--text-white-color: #FFFFFF;
+	--orange-background-light: rgba(255, 77, 0, 0.2);
+	--box-shadow: 0px 24px 48px -12px rgba(29, 71, 100, 0.06);
+	/* --hover-box-shadow: 1px 10px 20px 1px rgba(159, 159, 159, .5); */
+}
+
+body {
+	background: var(--background-light-blue);
+}
+
+.container-signup {
+	margin: 0 auto;
+	max-width: 1080px;
+	background: var(--background);
+}
+
+h2.log-in-header {
+	color: var(--hed-burban-color);
+}
+
+.signup-title .text-login {
+	color: var(--heading-text-light);
+}
+
+.btn-outline-secondary:hover {
+	color: var(--heading-dark-text);
+	background: var(--background);
+}
+
+.border-clr:focus {
+	box-shadow: none;
+	border-color: var(--border-color);
+}
+
+.google-link {
+	text-decoration: none;
+	color: var(--heading-dark-text);
+}
+
+.google-link:hover {
+	color: var(--heading-dark-text);
+}
+
+input[type=text],
+input[type=password] {
+	color: var(--border-color);
+}
+
+.border-clr {
+	border-color: var(--border-color);
+	padding: 12px;
+}
+
+.radio-box {
+	border: var(--border);
+	border-color: var(--border-color);
+	padding: 12px;
+	border-radius: var(--border-radius);
+}
+
+.customer {
+	padding-left: 7px;
+}
+
+.account {
+	text-align: right;
+}
+
+.have-acnt {
+	color: var(--heading-dark-text);
+}
+
+.size {
+	font-size: 14px;
+}
+
+.btn-outline-secondary:focus {
+	box-shadow: none;
+}
+
+.create-ac {
+	color: var(--text-white-color);
+	text-decoration: none;
+}
+
+.create-ac:hover {
+	color: var(--text-white-color);
+}
+
+a.orange-color {
+	color: var(--color-burban-orange);
+}
+
+.line {
+	border: 1px solid #D1D1D1;
+	margin: 10px 0;
+	opacity: 0.5;
+}
+
+.line-copy {
+	text-align: center;
+	background: var(--background);
+	display: inline-block;
+	position: relative;
+	top: -31px;
+	width: 50px;
+	margin: auto;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Signup</title>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="assets/css/common.css">
+	<link rel="stylesheet" href="assets/css/signup.css">
+</head>
+
+<body>
+	<header class="header_container">
+		<div class="d-flex justify-content-between align-items-center mob_block">
+			<div class="logo w200 text-end"><a href="homepage.html"><img src="assets/images/signup-img/BrandBoy-logo.svg"
+						alt="BrandBoy-logo"></a></div>
+			<div class="main_menu">
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="main_nav">
+
+						<ul class="navbar-nav">
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Home </a>
+								<ul class="dropdown-menu">
+									<li class="drop-padding"><a class="dropdown-item" href="#"> About Us </a></li>
+									<li class="drop-padding"><a class="dropdown-item" href="#"> Blogs </a>
+									<li class="drop-padding"><a class="dropdown-item" href="#"> Contact Us </a></li>
+									<li class="drop-padding"><a class="dropdown-item" href="#"> My Account </a>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Generators </a>
+								<ul class="dropdown-menu">
+									<li class="drop-padding"><a class="dropdown-item" href="#">Name Generator </a></li>
+									<li class="drop-padding"><a class="dropdown-item" href="#">Slogan Generator </a>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Contests </a>
+								<ul class="dropdown-menu">
+									<li class="drop-padding"><a class="dropdown-item" href="#">Hold Contest </a></li>
+									<li class="drop-padding"><a class="dropdown-item" href="#">Recent Contests </a>
+									<li class="drop-padding"><a class="dropdown-item" href="#">Recent Winners</a></li>
+									<li class="drop-padding"><a class="dropdown-item" href="#">Join as Namer </a>
+								</ul>
+							</li>
+							<li class="nav-item"> <a class="nav-link" href="#">Name Test</a> </li>
+							<li class="nav-item"> <a class="nav-link" href="#">Premium Domains</a></li>
+						</ul>
+					</div> <!-- navbar-collapse.// -->
+				</nav>
+			</div>
+			<div class="right_icn w200 text-start ps-2">
+				<a href="#" class="mr-2"><img src="assets/images/signup-img/star.svg" alt="favourites"></a>
+				<a href="#"><img src="assets/images/signup-img/my-account.svg" alt="my-account"></a>
+			</div>
+		</div>
+	</header>
+	<div class="brd_gray"></div>
+	<!--****************************************************** Header end -->
+
+	<!--************************************************* Main content starts -->
+	<main>
+		<section class="signup">
+			<div class="container-signup mt-5 mb-5 p-5">
+				<div class="signup-title">
+					<h2 class="log-in-header">Create an account</h2>
+					<p class="text-login border-bottom pb-3">
+						All your 'starting up business'Services at one place. Log in and avail all services and exclusive offers.
+					</p>
+				</div>
+
+				<!-- Continue with google btn -->
+				<div class="d-grid gap-2 col-6 mx-auto">
+					<button class="google-btn btn btn-outline-secondary p-2 mt-3" type="button">
+						<a class="google-link" href="#">
+							<img class="google-icon px-2" src="assets/images/signup-img/Google fevicon.svg" alt="Google" />
+							Continue with Google
+						</a>
+					</button>
+					<!-- Or separator -->
+					<div class="line"></div>
+					<div class="line-copy">Or</div>
+				</div>
+
+				<!-- *********Form start -->
+				<form class="row g-3">
+					<div class="col-md-6">
+						<label for="fullname" class="form-label">Full Name</label>
+						<input type="text" class="form-control border-clr" id="fullname" placeholder="Name Surname" />
+						<span class="error"></span>
+					</div>
+					<div class="col-md-6">
+						<label for="email" class="form-label">Email Address</label>
+						<input type="text" class="form-control border-clr" id="email" placeholder="example@mail.com" />
+						<span class="error"></span>
+					</div>
+					<div class="col-md-6">
+						<label for="password" class="form-label">Password</label>
+						<input type="password" class="form-control border-clr" id="password" class="s-pass"
+							placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" />
+						<span class="error"></span>
+					</div>
+					<div class="col-md-6">
+						<label for="confirm-password" class="form-label">Confirm Password</label>
+						<input type="password" class="form-control border-clr" id="confirm-password" class="s-pass"
+							placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" />
+						<span class="error"></span>
+					</div>
+					<div class="col-md-6">
+						<label for="join-as" class="form-label">Join as</label><br>
+						<div class="col radio-box">
+							<input class="radio-orange" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked />
+							<label class="form-check-label customer" for="flexRadioDefault1">
+								Buyer
+							</label>
+							<span class="text-muted size">(Click if you want to hold a contest or purchase domain)</span>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<label for="join-as" class="form-label">&nbsp</label><br>
+						<div class="col radio-box">
+							<input class="radio-orange" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+							<label class="form-check-label customer" for="flexRadioDefault1">
+								Participant
+							</label>
+							<span class="text-muted size">(Click if you want to participate in contest and earn.)</span>
+						</div>
+					</div>
+
+					<!-- Create account btn section starts -->
+					<div class="row mt-5 pe-0">
+						<div class="col-md-8 text-end">
+							<div class="row">
+								<div class="col-md-7"></div>
+								<div class="col-md-5 text-start col-sm text-center">
+									<button class="btn-orange px-4 pt-2 pb-2 w-60"><a class="create-ac" href="#">Create
+											Account</a></button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 account pt-2 text-lg-end text-center pe-0 ps-md-0">
+							<span class="have-acnt">Already have an account ?<a href="login.html" class="orange-color">Log
+									In</a></span>
+						</div>
+					</div>
+				</form>
+				<!-- ******Form end -->
+			</div>
+		</section>
+	</main>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
